@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.google.ar.core.arfoundation.extensions": {
-      "version": "file:C:/Users/Giedrius-PC/Desktop/package",
+      "version": "file:ARCorePackage",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {
         "com.unity.xr.arfoundation": "4.1.0-preview.5",
         "com.unity.xr.arcore": "4.1.0-preview.5"
