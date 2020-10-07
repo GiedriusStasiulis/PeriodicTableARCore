@@ -76,9 +76,6 @@ namespace GoogleARCore.Examples.HelloAR
 
         private bool objInstantiated = false;
 
-        [SerializeField]
-        private TextMeshProUGUI feedbackText;
-
         public GameObject overlay;
 
         public GameObject cAnimController;
@@ -115,7 +112,7 @@ namespace GoogleARCore.Examples.HelloAR
                     {
                         if(hitElem.collider.gameObject.tag == "QuitAnim")
                         {
-                            feedbackText.text = "Quit anim clicked!";
+                            //feedbackText.text = "Quit anim clicked!";
                             overlay.SetActive(false);
                             cAnimController.SetActive(false);
                             alAnimController.SetActive(false);
@@ -126,35 +123,35 @@ namespace GoogleARCore.Examples.HelloAR
 
                         if(hitElem.collider.gameObject.tag == "H")
                         {
-                            feedbackText.text = "H clicked!";
+                            //feedbackText.text = "H clicked!";
                             overlay.SetActive(true);
                             hAnimController.SetActive(true);
                         }
 
                         if(hitElem.collider.gameObject.tag == "O")
                         {
-                            feedbackText.text = "O clicked!";
+                            //feedbackText.text = "O clicked!";
                             overlay.SetActive(true);
                             oAnimController.SetActive(true);
                         }
 
                         if(hitElem.collider.gameObject.tag == "C")
                         {
-                            feedbackText.text = "C clicked!";
+                            //feedbackText.text = "C clicked!";
                             overlay.SetActive(true);
                             cAnimController.SetActive(true);
                         }
 
                         if(hitElem.collider.gameObject.tag == "Ca")
                         {
-                            feedbackText.text = "Ca clicked!";
+                            //feedbackText.text = "Ca clicked!";
                             overlay.SetActive(true);
                             caAnimController.SetActive(true);
                         }
 
                         if(hitElem.collider.gameObject.tag == "Al")
                         {
-                            feedbackText.text = "Al clicked!";
+                            //feedbackText.text = "Al clicked!";
                             overlay.SetActive(true);
                             alAnimController.SetActive(true);
                         }
