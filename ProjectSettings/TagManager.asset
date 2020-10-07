@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - H
+  - O
+  - QuitAnim
+  - C
+  - Ca
+  - Al
+  - DarkOverlay
+  - CarbonAnimator
+  - AlluminumAnimator
+  - HydrogenAnimator
+  - CalciumAnimator
+  - OxygenAnimator
   layers:
   - Default
   - TransparentFX
